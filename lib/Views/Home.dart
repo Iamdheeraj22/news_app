@@ -35,6 +35,7 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
       ),
       body: Container(
+        margin: EdgeInsets.only(top: 10),
         child: Column(
           children: <Widget>[
             Container(
@@ -62,11 +63,47 @@ class CategoryTile extends StatelessWidget {
   CategoryTile({this.imageurl, this.categoryname});
   @override
   Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () => {},
+      child: Container(
+        padding: EdgeInsets.symmetric(horizontal: 10),
+        child: Stack(
+          children: <Widget>[
+            ClipRRect(
+                borderRadius: BorderRadius.circular(6),
+                child: Image.network(imageurl,
+                    width: 120, height: 60, fit: BoxFit.cover)),
+            Container(
+              alignment: Alignment.center,
+              width: 120,
+              decoration: BoxDecoration(
+                color: Colors.black26,
+                borderRadius: BorderRadius.circular(6),
+              ),
+              height: 60,
+              child: Text(
+                categoryname,
+                style: TextStyle(color: Colors.white),
+              ),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class BlogTile extends StatelessWidget {
+  final title, imgUrl, desc;
+  BlogTile({this.title, this.imgUrl, this.desc});
+  @override
+  Widget build(BuildContext context) {
     return Container(
-      child: Stack(
+      child: Column(
         children: <Widget>[
-          Image.network(imageurl, width: 120, height: 60, fit: BoxFit.cover)
-        ],
+          Image.network(imgUrl),
+          Text(title), 
+          Text(desc)],
       ),
     );
   }

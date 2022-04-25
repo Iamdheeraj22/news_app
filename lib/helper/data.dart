@@ -5,44 +5,44 @@ List<CategoryModel> getCategories() {
   CategoryModel categoryModel = new CategoryModel();
 
   //1st
-  categoryModel.categoryName = "General";
+  categoryModel.categoryName = "Buisness";
   categoryModel.imageUrl =
-      "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80";
+      "https://cdn.pixabay.com/photo/2020/06/01/22/23/eye-5248678__340.jpg";
+  categories.add(categoryModel);
+
+  //1st
+  categoryModel = new CategoryModel();
+  categoryModel.categoryName = "Health";
+  categoryModel.imageUrl =
+      "https://cdn.pixabay.com/photo/2020/06/01/22/23/eye-5248678__340.jpg";
   categories.add(categoryModel);
 
   //1st
   categoryModel = new CategoryModel();
   categoryModel.categoryName = "General";
   categoryModel.imageUrl =
-      "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80";
+      "https://cdn.pixabay.com/photo/2020/06/01/22/23/eye-5248678__340.jpg";
   categories.add(categoryModel);
 
   //1st
   categoryModel = new CategoryModel();
   categoryModel.categoryName = "General";
   categoryModel.imageUrl =
-      "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80";
+      "https://cdn.pixabay.com/photo/2020/06/01/22/23/eye-5248678__340.jpg";
   categories.add(categoryModel);
 
   //1st
   categoryModel = new CategoryModel();
   categoryModel.categoryName = "General";
   categoryModel.imageUrl =
-      "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80";
+      "https://cdn.pixabay.com/photo/2020/06/01/22/23/eye-5248678__340.jpg";
   categories.add(categoryModel);
 
   //1st
   categoryModel = new CategoryModel();
   categoryModel.categoryName = "General";
   categoryModel.imageUrl =
-      "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80";
-  categories.add(categoryModel);
-
-  //1st
-  categoryModel = new CategoryModel();
-  categoryModel.categoryName = "General";
-  categoryModel.imageUrl =
-      "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80";
+      "https://cdn.pixabay.com/photo/2020/06/01/22/23/eye-5248678__340.jpg";
   categories.add(categoryModel);
 
   return categories;
